@@ -139,7 +139,7 @@ getLoginData();
                     <ul>
                         <li><Link href="/dashboard"><a className={router.pathname == "/dashboard" ? "active" : ""}>Home</a></Link></li>
                         {/* <li><Link href="/feedbackform"><a className={router.pathname == "/feedbackform" ? "active" : ""}>Feedback</a></Link></li> */}
-                        <li><Link href={"/userprofile/[upid]"} as={"/userprofile/" + phoneNum }><a className={router.pathname == "/userprofile/" + phoneNum ? "active" : ""}>Profile</a></Link></li>
+                     {/* <li><Link href={"/userprofile/[upid]"} as={"/userprofile/" + phoneNum }><a className={router.pathname == "/userprofile/" + phoneNum ? "active" : ""}>Profile</a></Link></li>*/}
                         <li><Link href=""><a className={router.pathname == "/" + eventName ? "active" : ""}  onClick={handleLogout}>Logout</a></Link></li>
                        
                     </ul>
