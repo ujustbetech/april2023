@@ -46,7 +46,7 @@ const EventList = () => {
           }
       }
     
-      getLoginData();
+     // getLoginData();
       
       }, [])
       
