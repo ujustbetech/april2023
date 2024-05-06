@@ -81,10 +81,10 @@ const Admin = () => {
         const isLogin = localStorage.getItem("ucoreadmin");
         const adminDetails = JSON.parse(isLogin);
         console.log(adminDetails);
-        console.log("currentuser",adminDetails.currentuser);
+       // console.log("currentuser",adminDetails.currentuser);
 
         let data = {
-          createdBy:adminDetails.currentuser,
+          createdBy:"Suraj",
           createTime:tm,
           createdDate:dt,
           eventName:eventName,
